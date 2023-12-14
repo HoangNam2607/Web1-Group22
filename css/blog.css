@@ -1,0 +1,16 @@
+.about-details{
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    text-align: justify;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.section-subtitle{
+    border-top: 2px solid #27ae60;
+    width: 5%;
+    margin: auto;
+}

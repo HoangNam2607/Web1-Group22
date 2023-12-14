@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi-vn">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit - Trái cây sạch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    
+</head>
+<body>
+          <!-- Header -->
+    <header>
+      <a class="logo"><img src="../images/logo.png"/></a>
+      <nav id="next" class="navbar">
+        <a class="btn active" href="index.html">Trang chủ</a>
+        <a class="btn" href="product.html">Sản phẩm</a>
+        <a class="btn" href="blog.html">Tin tức</a>
+        <a class="btn" href="contact.html">Liên hệ</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars-mobile"></i>
+        <a href="history.html" class="fas fa-history"></a>
+        <a href="./account/login.html" class="fas fa-user"></a>
+        <a href="./account/account-info.html" class="fas fa-id-badge"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="product" id="home">
+      <div class="home-slider">
+        <div class="wrapper carousel-inner">    
+          <div class="slide carousel-item active">
+            <div class="content">
+              <h1>Liên Hệ</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--Content -->
+  <section class="contact-one">
+    <img src="../images/contact-bg-1-1.png" alt="" class="contact-one__shape-1"/>
+    <img src="../images/contact-bg-1-2.png" alt="" class="contact-one__shape-2"/>
+    <div class="container">
+        <div class="block-title text-center">
+            <div class="block-title__decor"></div>
+            <p>Liên Hệ Với Chúng Tôi</p>
+            <h3>Câu Hỏi Của Bạn Là ? <br>
+                Hãy Viết Câu Hỏi Cho Chúng Tôi !</h3>
+        </div>
+        <form action="assets/inc/sendemail.php" class="contact-form-validated contact-one__form">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" name="name" placeholder="Tên">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" placeholder="Email" name="email">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" placeholder="Số điện thoại" name="phone">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" placeholder="Chủ Đề" name="subject">
+                </div>
+                <div class="col-md-12">
+                    <textarea placeholder="Lời nhắn" name="message"></textarea>
+                </div>
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="thm-btn">Gửi Tin Nhắn</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- GG map -->
+<div class="google-map__default">
+  <iframe title="template google map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.669726937899!2d106.68006961462243!3d10.759917092332744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1b7c3ed289%3A0xa06651894598e488!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTw6BpIEfDsm4!5e0!3m2!1svi!2s!4v1607277768947!5m2!1svi!2s" class="map__default" allowfullscreen></iframe>
+</div>
+
+
+      <!-- footer -->
+      <section class="footer">
+        <div class="container">
+            <div class="row-footer">
+            <div class="content1">
+                <img src="../images/logo.png" />
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero. Blanditiis ad sapiente, doloremque minus molestias magni neque veritatis labore quasi quas officia dolor velit? Obcaecati nesciunt similique animi vel?</p>
+            </div>
+            <div class="content2">
+                <h3>Liên hệ</h3>
+                <ul>
+                <li>
+                    <i class="fa fa-phone-square"></i>
+                    <a href="">090000000</a>
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="">abc@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-map-marker-alt"></i>
+                    <a href="#">273 An Duong Vuong, TPHCM</a>
+                </li>
+                </ul>
+            </div>
+            <div class="content2">
+                <h3>Links</h3>
+                <ul>
+                <li><a>Top Sellers</a></li>
+                <li><a>Shopping</a></li>
+                <li><a>Help</a></li>
+                <li><a>About Store</a></li>
+                </ul>
+            </div>
+            <div class="content4">
+                <h3>Tìm kiếm sản phẩm</h3>
+                <form action="" id="search2-form">
+                <input type="text" placeholder="Tìm kiếm" class="seacrh" id="search-box"><br>
+                <button type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+            </div>
+        </div><hr>
+        <div class="bottom-footer">
+            <p>© Copyright 2023</p>
+        </div>
+        </section>
+        
+    
+    
+                <!-- Search form -->
+        <form action="" id="search-form">
+            <input type="text" placeholder="Tìm kiếm ..." class="seacrh" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+        <script src="../script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
